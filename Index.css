@@ -1,1 +1,93 @@
+body {
+	font-family: Sans-Serif;
+	background-image: url("wp3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat
+	background-position: center;
+	background-color: black;
+	height: auto;
+	color: Black;
+}
+p {
+	font-size: 20px;
+}
+/* Table Elments*/
+table{
+		border:0; 
+		width:auto;
+		height:auto;
+		color:white;
+}
+tr:nth-child(even) {
+	background-color: #FFE4C4;
+}
+tr:nth-child(odd) {
+	background-color: #2F4F4F;
+}
+.back {
+	background-color:white;
+	width:auto;
+	text-align: center;
+}
 
+/* Image Elements*/
+.wrap {
+	background-color: rgba(255,255,255,.75);
+	width:auto;
+	display: inline-block;
+	padding:2px;
+	
+}
+.headshot {
+	width: 120px; 
+	height: 150px; 
+	border: 0px; 
+}
+
+.img-container {
+	position: relative;
+	width: auto;
+	float: right;
+	height:200px;
+}
+
+.caption {
+	position:absolute;
+	bottom: 0;
+	right: 0;
+	padding: 5px 10px;
+	font-size: 14px;
+	text-align: center;
+}
+
+/* Font Elements */
+.bold {
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+.highlight {
+	font-weight: bold;
+	color: red;
+}
+
+/*Link Elements */
+a:link {
+	color: #7FFFD4;
+}
+
+a:visited {
+	color:  #00008B;
+}
+
+a:hover {
+	color: pink;
+}
+
+.quote {
+	display: block;
+	text-align: center;
+	background-color: #F0FFFF;
+	padding: 5px;
+}
